@@ -1,0 +1,39 @@
+.segment {
+    position: absolute;
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    z-index: 50;
+    top: 50%;
+    left: 50%;
+}
+
+#pj {
+    top: 100px;
+    left: 100px;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    z-index: 50;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+#pj > .eyes {
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    margin: 2px;
+}
+
+.fruit {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
